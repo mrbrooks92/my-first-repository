@@ -1,0 +1,9 @@
+.styledFont {
+        color:blue;
+        font-size:larger;
+        font-family:cursive;
+}
+
+#centered-text {
+        text-align:center;
+}
