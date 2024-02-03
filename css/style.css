@@ -1,3 +1,4 @@
+
 body {
     background-color:#efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,12 +27,12 @@ h2 {
 }
 
 #main-bio, #contact-info, #bio-image {
-                       float: left
+                       float: left;
 }
 
 #bio-image {
 
-        width: 200px
+        width: 200px;
     
 }
 
@@ -39,7 +40,7 @@ h2 {
 #main-bio {
 
     width: 70%;
-    margin: 20px
+    margin: 20px;
 }
 
 
@@ -50,5 +51,5 @@ h2 {
 }
 
 a {
-    color:#d21034
+    color:#d21034;
 }
