@@ -33,6 +33,7 @@ h2 {
 #bio-image {
 
         width: 200px;
+        margin: 0 20px;
     
 }
 
@@ -40,7 +41,7 @@ h2 {
 #main-bio {
 
     width: 70%;
-    margin: 20px;
+    
 }
 
 
