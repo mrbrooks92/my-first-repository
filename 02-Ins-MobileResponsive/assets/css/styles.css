@@ -1,0 +1,310 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /* mobile devices */
+    body {
+        background-color: tan;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#333333;
+        font-size: xx-small;
+        margin: 0;
+        padding: 0;
+        }
+    
+    ul,li {
+        color: white;
+        display: inline;
+        padding: 2px;
+        float: center;
+    }
+    
+    h1, h2, h3 {
+            text-align: center;
+            color:green;
+        }
+    
+    h4, h5, h6 {
+        font-size: small;
+        margin: 20px;
+        color:blue;
+    }
+    
+    #bio-image {
+    
+            width: 30px;
+            height: 35px;
+            margin: 0 auto;
+            display: block;
+        
+    }
+    
+    #main-bio {
+    
+        width: 50%;
+        margin-left: 20px;
+        
+    }
+    
+    #calc, #book, #weather {
+        width: 50px;
+        height: 60px;
+        padding: 1px;
+        margin-left: 20px;
+    
+    }
+    
+    #contact-info {
+    
+            display: inline;
+            padding: 1px;
+            line-height: 1.5;
+            margin-left: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* small ipads and small android tablets */
+    body {
+        background-color: teal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#333333;
+        margin: 0;
+        padding: 0;
+        }
+    
+    ul,li {
+        color: white;
+        display: inline;
+        padding: 5px;
+        float: right;
+    }
+    
+    h1, h2, h3 {
+            text-align: center;
+            color:green;
+            font-size: small;
+        }
+    
+    h4, h5, h6 {
+        font-size: 30px;
+        margin: 20px;
+        color:blue;
+    }
+    
+    #bio-image {
+    
+            width: 40px;
+            height: 50px;
+            margin: 0 auto;
+            display: block;
+        
+    }
+    
+    #main-bio {
+    
+        width: 50%;
+        margin-left: 20px;
+        
+    }
+    
+    #calc, #book, #weather {
+        width: 60px;
+        height: 70px;
+        padding: 1px;
+        margin-left: 20px;
+    
+    }
+    
+    #contact-info {
+    
+            display: inline;
+            padding: 1px;
+            line-height: 1.5;
+            margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* laptops and and small screens */
+    body {
+        background-color: orange;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#333333;
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2, h3{
+        text-align: center;
+        color: green;
+    }
+    ul,li {
+        text-align: center;
+        color: white;
+        display: inline;
+        padding: 10px;
+        float: right;   
+    }
+
+h4, h5, h6 {
+    font-size: 20px;
+    margin: 20px;
+    color:blue;
+}
+
+#bio-image {
+
+        width: 100px;
+        height: 150px;
+        margin: 50px auto;
+        display: block;
+    
+}
+
+#main-bio {
+
+    width: 50%;
+    margin-left: 50px;
+    
+}
+
+#calc, #book, #weather {
+    width: 80px;
+    height: 100px;
+    padding: 1px;
+    margin-left: 50px;
+
+}
+
+#contact-info {
+
+        display: inline;
+        padding: 5px;
+        line-height: 1.5;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    /* large screens and desktops */
+body {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#333333;
+    margin: 0;
+    padding: 0;
+    }
+
+ul,li {
+    color: white;
+    display: inline;
+    padding: 10px;
+    float: right;
+    
+}
+
+h1, h2, h3 {
+        text-align: center;
+        color:green;
+    }
+
+h4, h5, h6 {
+    font-size: 30px;
+    margin: 20px;
+    color:blue;
+}
+
+#bio-image {
+
+        width: 300px;
+        height: 400px;
+        margin: 100px auto;
+        display: block;
+    
+}
+
+#main-bio {
+
+    width: 50%;
+    margin-left: 200px;
+    
+}
+
+#calc, #book, #weather {
+    width: 250px;
+    height: 200px;
+    padding: 1px;
+    margin-left: 200px;
+
+}
+
+#contact-info {
+
+        display: inline;
+        padding: 5px;
+        line-height: 1.5;
+        margin-left: 200px;
+}
+
+
+}
+
+@media screen and (min-width: 1201px) and (orientation: landscape){
+    /* large LCD screens and beyond */
+    body {
+        background-color: magenta;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#333333;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul,li {
+        color: white;
+        display: inline;
+        padding: 10px;
+        float: right;
+    }
+
+     h1, h2, h3 {
+            text-align: center;
+    }
+  
+h4, h5, h6 {
+    font-size: 30px;
+    margin: 20px;
+    color:blue;
+}
+
+
+#bio-image {
+
+        width: 300px;
+        height: 400px;
+        margin: 100px auto;
+        display: block;
+    
+}
+
+#main-bio {
+
+    width: 50%;
+    margin-left: 200px;
+    
+}
+
+#calc, #book, #weather {
+    width: 250px;
+    height: 200px;
+    padding: 1px;
+    margin-left: 200px;
+
+}
+
+#contact-info {
+
+        display: inline;
+        padding: 5px;
+        line-height: 1.5;
+        margin-left: 200px;
+    
+}
+
+}
