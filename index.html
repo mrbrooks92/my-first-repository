@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <!-- for mobile responsiveness, you need this meta tag -->
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-    <title>Mobile Responsiveness Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadrian // Aspiring Web Developer</title>
     <!-- this link tag displays a little icon in the tab of your 
         active browser window. It's called a "favicon"
         (favorite icon)-->
@@ -17,58 +16,52 @@
 </head>
 <body>
     <header>
-        <h1>Mobile Responsiveness Example</h1>
-        <h2 id="deviceName"></h2>
-        <h3>Tadrian's Bio Page</h3>      
+        <h1>Welcome to Tadrian's Bio Page</h1>    
+        <nav>
+            <a href="#">Home</a>
+            <a href="#main-bio">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#contact-info">Contact Me</a>
+        
+        </nav>
     </header>
+    <section class="bio-image"> 
+       <div> 
+            <img id="bio-image" src="image/bio-image.jpg" alt="Tadrian Brooks">
+            <h2> Tadrian The Aspiring Web Developer</h2>
+        </div> 
+    </section>
+    <main class="page-wrapper">
 
-    <nav>
-        <ul id="navbar" >
-            <li><a href="#">Home</a></li>
-            <li><a href="#main-bio">About Me</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#contact-info">Contact Me</a></li>
-        </ul>
-    </nav>
-
-    <img id="bio-image" src="image/bio-image.jpg" alt="Tadrian Brooks">
-    
-    <div class="container">
-        <h4>About Me</h4>
-          <section id="main-bio">
-            
+    <section class="page-section" id="main-bio">
+        <h3>About Me</h3>
+        <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt ullamcorper suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec arcu pellentesque, hendrerit leo eu, posuere felis. Nam et ipsum dui. Nunc et pulvinar magna. Nunc dapibus ligula ut ex condimentum gravida. Suspendisse sit amet fringilla tellus, non aliquam nisi.
       
               Sed ut luctus arcu, sit amet ornare neque. Ut molestie sodales quam, eu porta risus varius sit amet. Vestibulum hendrerit, sapien eu auctor dictum, magna ligula egestas magna, non molestie dolor risus id lacus. In hac habitasse platea dictumst. Maecenas vulputate enim mollis, scelerisque quam ac, vulputate velit. Morbi volutpat felis vel urna rhoncus, vitae dignissim arcu dignissim.</p>
-            </section>
-
-            <h5>Work</h5>
-            <section id="Work">
-                <img id="calc" src="image/calculator.png" alt="Calculator">
-                <img id="book" src="image/booking.jpg" alt="booking app">
-            
-                <img id="weather" src="image/weather.jpg" alt="weather app">
-            </section>
-
-            <h6>Contact Me</h6>
-
-            <section id="contact-info">
-   
-            <ul>
-              <li><strong>Email:</strong> <a href="./contactus.html">Click Here</a></li>
-              <li><strong>Github:</strong> <a href="https://github.com/mrbrooks92/my-first-repository">mrbrooks92</a></li>
-              <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-            </ul>
-          </section>
         </div>
-      
-    <!-- hint: I can place a script tag here to load an
-        external javascript file as well as place it in the
-        head tags. Placing it here ensure that all the elements
-        of my web page are rendered first, so that the javascript
-        code can recognize the elenents above the closed body
-        tag :) -->
-    <script src="./assets/js/device.js">
-    </script>
+    </section>
+
+    <section class="page-section" id="Work">  
+        <h3>Work</h3>
+        <div class="flex container"> 
+            <img id="calc" src="image/calculator.png" alt="Calculator" class="flex-item">
+
+            <img id="book" src="image/booking.jpg" alt="booking app">
+            <img id="weather" src="image/weather.jpg" alt="weather app">
+        </div>   
+    </section>
+
+    <section class="page-section contact" id="contact-info"> 
+        <h3>Contact Me</h3>
+        <div>
+            <address>
+              <a href="./contactus.html">Contact Us Here</a>
+              <a href="https://github.com/mrbrooks92/my-first-repository">GitHub</a>
+              <a href="linkedin.com/in/tadrian-brooks-489197127">LinkedIn</a>
+            </address>
+        </div>
+    </section>
+    </main>
 </body>
 </html>
