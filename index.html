@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Brooks Tours and Excursions </title>
+    <meta charset="UTF-8">
+    <!-- for mobile responsiveness, you need this meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadrian // Aspiring Web Developer</title>
+    <!-- this link tag displays a little icon in the tab of your 
+        active browser window. It's called a "favicon"
+        (favorite icon)-->
+    <link rel="icon" type="image/gif" href="./favicon.gif">
+    <!-- this is the external stylesheet that contains
+        the @media screen breakpoint rules
+    -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-<p style="color:red;font-size: large;">navbar goes here</p>
-<h1>About Our Tours and Excursions</h1>
-<p> I would like to build a website that advertisements my tour and excursion business and to allow for bookings to be done on the website. My website should be similar to the one below:</p>
-<a href= "https://www.jamaicatoursltd.com"> Visit Jamaica Tours Limited</a>
+    <header>
+        <h1>Welcome to Tadrian's Bio Page</h1>    
+        <nav>
+            <a href="#">Home</a>
+            <a href="#main-bio">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#contact-info">Contact Me</a>
+        
+        </nav>
+    </header>
+    <section class="bio-image"> 
+       <div> 
+            <img id="bio-image" src="image/bio-image.jpg" alt="Tadrian Brooks">
+            <h2> Tadrian The Aspiring Web Developer</h2>
+        </div> 
+    </section>
+    <main class="page-wrapper">
+
+    <section class="page-section" id="main-bio">
+        <h3>About Me</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt ullamcorper suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec arcu pellentesque, hendrerit leo eu, posuere felis. Nam et ipsum dui. Nunc et pulvinar magna. Nunc dapibus ligula ut ex condimentum gravida. Suspendisse sit amet fringilla tellus, non aliquam nisi.
+      
+              Sed ut luctus arcu, sit amet ornare neque. Ut molestie sodales quam, eu porta risus varius sit amet. Vestibulum hendrerit, sapien eu auctor dictum, magna ligula egestas magna, non molestie dolor risus id lacus. In hac habitasse platea dictumst. Maecenas vulputate enim mollis, scelerisque quam ac, vulputate velit. Morbi volutpat felis vel urna rhoncus, vitae dignissim arcu dignissim.</p>
+        </div>
+    </section>
+
+    <section class="page-section" id="Work">  
+        <h3>Work</h3>
+        <div class="flex container"> 
+            <img id="calc" src="image/calculator.png" alt="Calculator" class="flex-item">
+
+            <img id="book" src="image/booking.jpg" alt="booking app">
+            <img id="weather" src="image/weather.jpg" alt="weather app">
+        </div>   
+    </section>
+
+    <section class="page-section contact" id="contact-info"> 
+        <h3>Contact Me</h3>
+        <div>
+            <address>
+              <a href="./contactus.html">Contact Us Here</a>
+              <a href="https://github.com/mrbrooks92/my-first-repository">GitHub</a>
+              <a href="linkedin.com/in/tadrian-brooks-489197127">LinkedIn</a>
+            </address>
+        </div>
+    </section>
+    </main>
 </body>
 </html>
